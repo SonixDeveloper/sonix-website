@@ -11,3 +11,7 @@ h1{font:italic 800 clamp(55px,8vw,104px)/.86 "Barlow Condensed",Impact,sans-seri
 .site-footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 @media(max-width:630px){main,.site-header,.site-footer{width:calc(100% - 24px)}.hero{background-position:64% center}.grid,.setup{grid-template-columns:1fr}.site-header nav{gap:9px;font-size:12px}.features,.setup{margin:27px 0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.availability{display:flex;align-items:center;justify-self:end;gap:9px;padding:10px 13px;border:1px solid var(--line);border-radius:8px;background:#110d13}
+.availability span{width:8px;height:8px;border-radius:50%;background:#eca76d}
+@media(max-width:630px){.availability{justify-self:start}}
